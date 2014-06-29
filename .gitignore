@@ -1,5 +1,4 @@
-
-    # Byte-compiled / optimized / DLL files
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 
@@ -9,6 +8,7 @@ __pycache__/
 # Distribution / packaging
 .Python
 env/
+bin/
 build/
 develop-eggs/
 dist/
@@ -41,6 +41,22 @@ coverage.xml
 
 # Django stuff:
 *.log
+
+# Sphinx documentation
+docs/_build/
+
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+# Rope
+.ropeproject
+
+# Django stuff:
+*.log
+*.pot
 
 # Sphinx documentation
 docs/_build/
